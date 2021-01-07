@@ -12,4 +12,15 @@
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+vendor/
+
+# Build related directories
+public/
+coverage/
+build/
+
+# IDE related
+.vscode/
+
+# OS related
+.DS_Store
