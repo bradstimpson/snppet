@@ -30,17 +30,17 @@ Click on sponsor, above, for more information on sponsorship.
 
 ## Features
 
-- basic bookmark management (CRUD), with collections, and areas
+- basic bookmark management (CRUD), with collections, and areas (broader groupings of collections)
 - import bookmarks from any plaintext format by scraping for html://<> addresses
 - simple cli with accompanying scripts that can be run to update bookmarks (or standard CRUD)
 - simple webui that uses as little javascript as possible
 - supports locales with english and french included
 - GRPC and REST API to interact with service
-- portable in single binary format
-- support for sqlite, postgresql, cockroachdb, badger, and redis
+- ability to send a short URL to your bookmark, collection, or area
 - crawl bookmarks to: summarize content, fingerprint images, shorten URLs, take snapshot of the page
 - ability to select different icons for a bookmark, use the favicon, or the snapshot
 - convenience utilities to shorten URLs, unshorten URLs, or generate a QR code
+- leverage go 1.16 embed capabilities
 - chrome/firefox/alfred extensions/plugins
 
 ## Contributing
@@ -55,4 +55,4 @@ Thank you, [contributors](https://github.com/bradstimpson/snppet/graphs/contribu
 ## Dependencies
 | Name | License |
 |---|---|
-|pkger| MIT |
+||  |
